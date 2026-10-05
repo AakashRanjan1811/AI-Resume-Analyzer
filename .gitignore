@@ -1,0 +1,102 @@
+# =========================
+# NODE MODULES
+# =========================
+
+node_modules/
+
+# =========================
+# PYTHON
+# =========================
+
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# ENV FILES
+# =========================
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# LOGS
+# =========================
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# OS FILES
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# BUILD FILES
+# =========================
+
+dist/
+build/
+
+# =========================
+# VSCODE
+# =========================
+
+.vscode/
+
+# =========================
+# UPLOADS
+# =========================
+
+backend/uploads/*
+
+# keep folder
+!backend/uploads/.gitkeep
+
+# =========================
+# AI MODELS
+# =========================
+
+ai-service/saved_models/*.pkl
+ai-service/saved_models/*.joblib
+ai-service/saved_models/*.pt
+ai-service/saved_models/*.bin
+
+# =========================
+# JUPYTER
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# CACHE
+# =========================
+
+.cache/
+
+# =========================
+# PYTORCH
+# =========================
+
+*.pth
+
+# =========================
+# FASTAPI CACHE
+# =========================
+
+.pytest_cache/
+
+# =========================
+# COVERAGE
+# =========================
+
+coverage/
+htmlcov/
